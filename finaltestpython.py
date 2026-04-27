@@ -1,8 +1,21 @@
 # Personal Budget Tracker
+import JSON
 
 transactions = []
 balance = 0
+filename = "budget_data.json"
 
+def save_data ():
+    data = { 
+        "transactions": transactions,    
+        "balance": balance
+    }
+with open(filename, 'w') as file:
+    json.dump (data,file)
+
+    print ("Progress saved.")
+    def load_data():
+        
 def show_menu():
     print("\n--- Personal Budget Tracker ---")
     print("1. Add Income")

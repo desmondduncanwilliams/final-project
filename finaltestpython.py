@@ -14,7 +14,7 @@ with open(filename, 'w') as file:
     json.dump (data,file)
 
     print ("Progress saved.")
-    def load_data():
+    
         
 def show_menu():
     print("\n--- Personal Budget Tracker ---")

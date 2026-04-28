@@ -1,2 +1,2 @@
 # final-project
-budget tracker buy Emmanuella and Desmond
+budget tracker by Emmanuella and Desmond
